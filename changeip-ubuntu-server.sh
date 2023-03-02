@@ -1,6 +1,6 @@
 #! /bin/bash
 cd ~
-sudo apt-get updage -y
+sudo apt-get update -y
 sudo apt-get upgrade -y
 
 read -p "Enter your IP address you want to change to static: " IPADDRESS 
