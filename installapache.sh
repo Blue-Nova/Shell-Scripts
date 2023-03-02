@@ -3,13 +3,13 @@ cd ~
 
 sudo apt install apache2 -y
 
-read -p "Enter the name of your domain/website: " NAME
+read -p 'Enter the name of your domain/website: ' NAME
 
 sudo mkdir /var/www/$NAME
 
 sudo chown -R $USER:$USER /var/www/$NAME
 
-read -p "Enter the Domain of your website: " DOMAIN
+read -p 'Enter the Domain of your website: ' DOMAIN
 
 sudo echo "<VirtualHost *:80>
     ServerName $DOMAIN
