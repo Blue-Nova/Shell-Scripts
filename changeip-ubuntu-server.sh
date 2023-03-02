@@ -3,9 +3,9 @@ cd ~
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
-read -p "Enter your IP address you want to change to static: " IPADDRESS 
-read -p "Enter your Gateway IP Address: " GATEWAY
-read -p "Enter your Interface Name: " INTERFACE
+read -p 'Enter your IP address you want to change to static: ' IPADDRESS 
+read -p 'Enter your Gateway IP Address: ' GATEWAY
+read -p 'Enter your Interface Name: ' INTERFACE
 
 sudo echo "# This is the network config written by 'subiquity'
 network:
